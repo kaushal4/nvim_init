@@ -258,3 +258,6 @@ inoremap <silent><expr> <down> coc#util#has_float() ? <SID>coc_float_scroll(1) :
 inoremap <silent><expr> <up> coc#util#has_float() ? <SID>coc_float_scroll(-1) : "\<up>"
 vnoremap <silent><expr> <down> coc#util#has_float() ? <SID>coc_float_scroll(1) : "\<down>"
 vnoremap <silent><expr> <up> coc#util#has_float() ? <SID>coc_float_scroll(-1) : "\<up>"
+
+"opening tabs 
+set showtabline=2
