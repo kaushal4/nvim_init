@@ -259,5 +259,5 @@ inoremap <silent><expr> <up> coc#util#has_float() ? <SID>coc_float_scroll(-1) : 
 vnoremap <silent><expr> <down> coc#util#has_float() ? <SID>coc_float_scroll(1) : "\<down>"
 vnoremap <silent><expr> <up> coc#util#has_float() ? <SID>coc_float_scroll(-1) : "\<up>"
 
-"opening tabs 
+"opening tabs on startup
 set showtabline=2
